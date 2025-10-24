@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <AboutItem title="About page" />
     <h1>This is an about page</h1>
   </div>
 </template>
@@ -13,3 +14,7 @@
   }
 }
 </style>
+
+<script setup>
+import AboutItem from '@/components/AboutItem.vue'
+</script>
